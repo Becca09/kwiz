@@ -16,21 +16,35 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Kwiz Project
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Description
+Kwiz is a web application designed to create and take quizzes on various subjects. It allows users to select a quiz topic and difficulty level, answer questions, and receive instant feedback on their performance. The project is built using Next.js for the frontend and utilizes React Router for navigation, React Hook Form for form management, and React Toastify for displaying notifications.
 
-## Learn More
+Features
+Users can select a quiz topic from a list of available subjects.
+Users can choose the difficulty level of the quiz (easy, medium, difficult).
+At the end of the quiz, users receive a summary of their performance, including the number of correct answers and a calculated score.
+Users can navigate back to the home page or select a new quiz topic after completing a quiz.
+Project Structure
+The project structure is organized as follows:
 
-To learn more about Next.js, take a look at the following resources:
+src/components: Contains reusable components used throughout the application, such as Levels, Heading, Paragraph, and LinkOrButton.
+src/utils: Contains utility functions and data used by the application, such as question data for different subjects.
+src/pages: Contains the main pages of the application, such as the Home page and individual quiz pages (e.g., MathematicsQuizPage).
+src/App.tsx: Main entry point of the application, where routes are defined using React Router.
+Installation
+To run the Kwiz project locally, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Technologies Used
+Next.js
+React Router
+React Hook Form
+React Toastify
+TypeScript
+Framer motion
+Tailwind css
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Author
+Adefuye Adeola
