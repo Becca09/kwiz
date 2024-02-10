@@ -22,7 +22,6 @@ const page = () => {
     return (
         <div>
             <Heading level = {3} className='text-white text-center mt-5'>Select a topic or subject to have a quiz on </Heading>
-            <Icon id="arrow" className={`h-6 w-6 mr-2 mt-1`} />
 
             <div>
                 <ul className="flex flex-col gap-8 mt-3">
@@ -35,7 +34,7 @@ const page = () => {
                                 {item.label}
                             </Link>
 
-                            <Icon id="arrow" className={`h-6 w-6 mr-2 mt-1`} />
+                            {/* <Icon id="arrow" className={`h-6 w-6 mr-2 mt-1`} /> */}
 
                         </li>
                     ))}
