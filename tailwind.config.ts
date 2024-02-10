@@ -9,9 +9,33 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+       
+      },
+
+      screens: {
+        'sm': '300px',
+       
+      },
+      colors: {
+        primary: {
+          50: '#160635',
+          100: '#8034FA',
+          200: '#00F0A5',
+          300: '#FFA31D',
+        },
+        warning: {
+          100: '#FFCC33',
+        },
+        error: {
+          100: '#FF3366',
+        },
+        green: {
+          100: '#00F0A5',
+        },
+      },
+
+      fontFamily: {
+        primary: ['var(--font-josefin)', 'san-serif'],
       },
     },
   },
