@@ -3,6 +3,7 @@ import { LinkOrButton } from "@/components/LinkOrButton";
 import { Paragraph } from "@/components/Paragraph";
 import React from "react";
 import { motion } from "framer-motion";
+import {Heading} from "@/components/Heading";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       transition={{ type: "spring", stiffness: 100 }}
     >
       <div className="">
+        <Heading level={1} className= "text-center mb-2">Hello There!</Heading>
         <Paragraph className="text-white text-center sm:text-[1.4rem] leading-6">
           Welcome to Kwiz, where knowledge meets excitement! Immerse yourself
           in a variety of quizzes encompassing an extensive range of topics and
